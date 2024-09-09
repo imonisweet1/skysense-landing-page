@@ -3,25 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="SkySense - Your personal weather companion. Get real-time weather updates, forecasts, and more.">
+  <meta name="description" content="SkySense - Your personal weather companion. Get real-time weather updates, forecasts, and customizable alerts tailored to your preferences.">
   <title>SkySense Weather App</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 0;
       background-color: #f4f4f9;
+      color: #333;
     }
 
     .hero {
       background: linear-gradient(to right, #4facfe, #00f2fe);
       color: white;
-      padding: 50px 0;
+      padding: 60px 20px;
       text-align: center;
     }
 
     .hero h1 {
-      font-size: 3rem;
+      font-size: 3.5rem;
       margin-bottom: 20px;
     }
 
@@ -33,25 +34,53 @@
     .hero a {
       background-color: white;
       color: #4facfe;
-      padding: 10px 25px;
+      padding: 15px 30px;
       border-radius: 25px;
       text-decoration: none;
       font-weight: bold;
     }
 
-    .features, .about {
-      padding: 50px;
+    .features, .about, .how-it-works {
+      padding: 60px 20px;
       text-align: center;
     }
 
-    .features h2, .about h2 {
-      font-size: 2rem;
+    .features h2, .about h2, .how-it-works h2 {
+      font-size: 2.5rem;
       margin-bottom: 20px;
     }
 
-    .features p, .about p {
-      font-size: 1rem;
+    .features p, .about p, .how-it-works p {
+      font-size: 1.1rem;
       margin-bottom: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .feature-box {
+      max-width: 1200px;
+      margin: 20px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .feature-box .feature {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature h3 {
+      font-size: 1.5rem;
+      color: #00f2fe;
+      margin-bottom: 10px;
+    }
+
+    .feature p {
+      font-size: 1rem;
+      color: #555;
     }
 
     .footer {
@@ -73,22 +102,53 @@
   <!-- Hero Section -->
   <section class="hero">
     <h1>SkySense Weather App</h1>
-    <p>Stay ahead of the weather with real-time updates, forecasts, and customizable alerts.</p>
+    <p>Your go-to solution for precise, real-time weather updates, personalized forecasts, and more.</p>
     <a href="#features">Explore Features</a>
   </section>
 
   <!-- Features Section -->
   <section id="features" class="features">
-    <h2>Features</h2>
-    <p>Real-time weather updates, 7-day forecasts, and severe weather alerts.</p>
-    <p>Hourly forecasts and user-friendly interface to access your favorite locations easily.</p>
-    <p>Search history, favorite locations, and weather alerts accessible without login.</p>
+    <h2>Why SkySense?</h2>
+    <p>SkySense offers an array of features designed to give you the most accurate and personalized weather experience possible. Whether you're planning for a day out, monitoring severe weather, or checking hourly forecasts, SkySense has you covered.</p>
+    
+    <div class="feature-box">
+      <div class="feature">
+        <h3>Real-Time Weather Updates</h3>
+        <p>Get up-to-the-minute weather updates for your current location or any city of your choice. SkySense provides hyper-localized data so you always know what’s happening right now.</p>
+      </div>
+      <div class="feature">
+        <h3>7-Day Forecast</h3>
+        <p>Plan your week with confidence. SkySense delivers an accurate 7-day weather forecast, complete with temperature highs and lows, precipitation chances, and more.</p>
+      </div>
+      <div class="feature">
+        <h3>Hourly Forecast</h3>
+        <p>Stay prepared for any changes in the weather by checking hourly forecasts. Whether you’re planning a trip or adjusting your day’s schedule, SkySense provides detailed forecasts for every hour.</p>
+      </div>
+      <div class="feature">
+        <h3>Severe Weather Alerts</h3>
+        <p>Be informed of incoming storms, extreme temperatures, or any weather alerts issued by official weather services. SkySense ensures you stay safe and prepared.</p>
+      </div>
+      <div class="feature">
+        <h3>Favorite Locations</h3>
+        <p>Easily save and access weather information for multiple locations. Whether it's home, work, or a favorite vacation spot, SkySense keeps your most important places at your fingertips.</p>
+      </div>
+      <div class="feature">
+        <h3>Weather Without Login</h3>
+        <p>Get access to core features like real-time weather, alerts, and forecasts without having to log in. SkySense values your convenience and privacy.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section id="how-it-works" class="how-it-works">
+    <h2>How SkySense Works</h2>
+    <p>Using SkySense is simple. Input your location or allow GPS tracking for automatic weather updates. Customize alerts and forecasts to suit your preferences. SkySense integrates with official weather services to ensure accurate and up-to-date information, giving you peace of mind no matter where you are.</p>
   </section>
 
   <!-- About Section -->
   <section id="about" class="about">
     <h2>About SkySense</h2>
-    <p>SkySense is designed to provide fast, accurate weather data tailored to your needs. Whether you’re planning your day or preparing for a trip, SkySense is your go-to weather companion.</p>
+    <p>SkySense is your ultimate weather companion. Designed for both casual users and weather enthusiasts, SkySense combines advanced meteorological data with an intuitive, user-friendly interface. Our goal is to help you make informed decisions with confidence, no matter the weather.</p>
   </section>
 
   <!-- Footer -->
