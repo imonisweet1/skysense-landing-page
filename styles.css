@@ -1,29 +1,24 @@
 /* General Styles */
 body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  h1, h2, h3 {
-    color: #00c6ff;
-  }
-  
-  p {
-    color: #333;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  section {
-    padding: 60px 20px;
-    text-align: center;
-  }
-  
-  /* Header and Navigation */
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  color: #00c6ff;
+}
+
+p {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header and Navigation */
 .main-header {
   background-color: #00c6ff;
   color: white;
@@ -39,19 +34,23 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Logo styling */
 .main-header .logo {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
+/* Navigation */
 .nav ul {
   list-style: none;
-  display: flex;
-  gap: 20px;
+  display: flex;  /* Ensures the items in the ul are displayed horizontally */
+  gap: 20px;  /* Space between each item */
+  margin: 0;
+  padding: 0;
 }
 
 .nav ul li {
-  display: inline;
+  display: inline-block;
 }
 
 .nav ul li a {
@@ -68,6 +67,7 @@ body {
   border-radius: 5px;
 }
 
+/* Button to View App */
 .btn-app {
   background-color: #4facfe;
   padding: 10px 25px;
@@ -93,7 +93,7 @@ section {
   text-align: center;
 }
 
-  /* Hero Section */
+/* Hero Section */
 .hero {
   background: url('images/weather-bg.jpg') no-repeat center center/cover;
   height: 100vh;
@@ -103,135 +103,3 @@ section {
   color: white;
   text-align: center;
 }
-  
-  /* Feature Section */
-  .features {
-    background-color: #f8f9fa;
-  }
-  
-  .features h2 {
-    font-size: 2.5rem;
-  }
-  
-  .feature-cards {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 30px;
-  }
-  
-  .feature-card {
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    width: 250px;
-    transition: transform 0.3s ease;
-  }
-  
-  .feature-card:hover {
-    transform: scale(1.05);
-  }
-  
-  .feature-card img {
-    width: 50px;
-    margin-bottom: 20px;
-  }
-  
-  /* Developer Section */
-  .developer {
-    background-color: #f0f0f0;
-  }
-  
-  .social-links img {
-    width: 40px;
-    margin: 0 15px;
-    transition: transform 0.3s ease;
-  }
-  
-  .social-links img:hover {
-    transform: scale(1.1);
-  }
-  
-  /* Source Code Section */
-  .source-code {
-    background-color: #fff;
-  }
-  
-  .btn-source {
-    background-color: #00c6ff;
-    color: white;
-    padding: 15px 30px;
-    border-radius: 10px;
-    font-size: 1.2rem;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-  }
-  
-  .btn-source:hover {
-    background-color: #4facfe;
-    transform: scale(1.05);
-  }
-  
-/* Video Section */
-.video-section {
-  padding: 60px 20px;
-  background-color: #f8f9fa;
-  text-align: center;
-}
-
-.video-section h2 {
-  font-size: 2.5rem;
-  color: #00c6ff;
-  margin-bottom: 20px;
-}
-
-.video-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.video-container iframe {
-  border: none;
-  width: 100%;
-  max-width: 560px;
-  height: 315px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Video Section */
-.video-section {
-  padding: 60px 20px;
-  background-color: #f8f9fa;
-  text-align: center;
-}
-
-.video-section h2 {
-  font-size: 2.5rem;
-  color: #00c6ff;
-  margin-bottom: 20px;
-}
-
-.video-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.video-container iframe {
-  border: none;
-  width: 100%;
-  max-width: 560px;
-  height: 315px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-  /* Keyframes for Animations */
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
