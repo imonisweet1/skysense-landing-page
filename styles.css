@@ -1,0 +1,70 @@
+/* Developer Section */
+.developer {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .developer h2 {
+    font-size: 2.5rem;
+    color: #00f2fe;
+  }
+  
+  .developer p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+    margin: 0 15px;
+    display: inline-block;
+  }
+  
+  .social-links img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-links img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Source Code Section */
+  .source-code {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .source-code h2 {
+    font-size: 2.5rem;
+    color: #00f2fe;
+  }
+  
+  .source-code p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .source-btn {
+    background-color: #00f2fe;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .source-btn:hover {
+    background-color: #4facfe;
+    transform: scale(1.05);
+  }  
